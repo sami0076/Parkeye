@@ -1,0 +1,102 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d",
+    "name": "Lot A",
+    "capacity": 450,
+    "permit_types": ["general", "west_campus"],
+    "lat": 38.8295,
+    "lon": -77.3072,
+    "is_deck": false,
+    "floors": null
+  },
+  {
+    "id": "b2c3d4e5-f6a7-5b6c-9d0e-1f2a3b4c5d6e",
+    "name": "Lot C",
+    "capacity": 380,
+    "permit_types": ["general"],
+    "lat": 38.8312,
+    "lon": -77.3058,
+    "is_deck": false,
+    "floors": null
+  },
+  {
+    "id": "c3d4e5f6-a7b8-6c7d-0e1f-2a3b4c5d6e7f",
+    "name": "Lot K",
+    "capacity": 520,
+    "permit_types": ["general", "west_campus"],
+    "lat": 38.8278,
+    "lon": -77.3105,
+    "is_deck": false,
+    "floors": null
+  },
+  {
+    "id": "d4e5f6a7-b8c9-7d8e-1f2a-3b4c5d6e7f8a",
+    "name": "Lot L",
+    "capacity": 290,
+    "permit_types": ["general"],
+    "lat": 38.8265,
+    "lon": -77.3089,
+    "is_deck": false,
+    "floors": null
+  },
+  {
+    "id": "e5f6a7b8-c9d0-8e9f-2a3b-4c5d6e7f8a9b",
+    "name": "Parking Deck 1",
+    "capacity": 1200,
+    "permit_types": ["general", "west_campus", "faculty"],
+    "lat": 38.8302,
+    "lon": -77.3065,
+    "is_deck": true,
+    "floors": 5
+  },
+  {
+    "id": "f6a7b8c9-d0e1-9f0a-3b4c-5d6e7f8a9b0c",
+    "name": "Parking Deck 2",
+    "capacity": 950,
+    "permit_types": ["general", "faculty"],
+    "lat": 38.8321,
+    "lon": -77.3042,
+    "is_deck": true,
+    "floors": 4
+  },
+  {
+    "id": "a7b8c9d0-e1f2-0a1b-4c5d-6e7f8a9b0c1d",
+    "name": "Rappahannock Deck",
+    "capacity": 1800,
+    "permit_types": ["general", "west_campus", "faculty"],
+    "lat": 38.8289,
+    "lon": -77.3025,
+    "is_deck": true,
+    "floors": 6
+  },
+  {
+    "id": "b8c9d0e1-f2a3-1b2c-5d6e-7f8a9b0c1d2e",
+    "name": "Shenandoah Lot",
+    "capacity": 340,
+    "permit_types": ["general"],
+    "lat": 38.8255,
+    "lon": -77.3120,
+    "is_deck": false,
+    "floors": null
+  },
+  {
+    "id": "c9d0e1f2-a3b4-2c3d-6e7f-8a9b0c1d2e3f",
+    "name": "West Campus Lot",
+    "capacity": 600,
+    "permit_types": ["west_campus", "general"],
+    "lat": 38.8240,
+    "lon": -77.3150,
+    "is_deck": false,
+    "floors": null
+  },
+  {
+    "id": "d0e1f2a3-b4c5-3d4e-7f8a-9b0c1d2e3f4a",
+    "name": "Johnson Center Lot",
+    "capacity": 220,
+    "permit_types": ["general", "faculty"],
+    "lat": 38.8318,
+    "lon": -77.3075,
+    "is_deck": false,
+    "floors": null
+  }
+]

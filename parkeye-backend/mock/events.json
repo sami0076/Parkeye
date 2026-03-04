@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Basketball vs. VCU",
+    "start_time": "2026-03-05T19:00:00Z",
+    "end_time": "2026-03-05T22:00:00Z",
+    "impact_level": "high",
+    "affected_lots": ["a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d", "b2c3d4e5-f6a7-5b6c-9d0e-1f2a3b4c5d6e", "e5f6a7b8-c9d0-8e9f-2a3b-4c5d6e7f8a9b"]
+  },
+  {
+    "title": "Spring Career Fair",
+    "start_time": "2026-03-06T10:00:00Z",
+    "end_time": "2026-03-06T15:00:00Z",
+    "impact_level": "high",
+    "affected_lots": ["a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d", "c3d4e5f6-a7b8-6c7d-0e1f-2a3b4c5d6e7f", "d0e1f2a3-b4c5-3d4e-7f8a-9b0c1d2e3f4a"]
+  },
+  {
+    "title": "Graduation Ceremony - College of Engineering",
+    "start_time": "2026-03-07T09:00:00Z",
+    "end_time": "2026-03-07T13:00:00Z",
+    "impact_level": "high",
+    "affected_lots": ["a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d", "b2c3d4e5-f6a7-5b6c-9d0e-1f2a3b4c5d6e", "e5f6a7b8-c9d0-8e9f-2a3b-4c5d6e7f8a9b", "a7b8c9d0-e1f2-0a1b-4c5d-6e7f8a9b0c1d"]
+  },
+  {
+    "title": "Finals Week - Day 1",
+    "start_time": "2026-03-09T08:00:00Z",
+    "end_time": "2026-03-09T18:00:00Z",
+    "impact_level": "medium",
+    "affected_lots": ["a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d", "b2c3d4e5-f6a7-5b6c-9d0e-1f2a3b4c5d6e", "c3d4e5f6-a7b8-6c7d-0e1f-2a3b4c5d6e7f", "d0e1f2a3-b4c5-3d4e-7f8a-9b0c1d2e3f4a"]
+  },
+  {
+    "title": "Finals Week - Day 2",
+    "start_time": "2026-03-10T08:00:00Z",
+    "end_time": "2026-03-10T18:00:00Z",
+    "impact_level": "medium",
+    "affected_lots": ["a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d", "e5f6a7b8-c9d0-8e9f-2a3b-4c5d6e7f8a9b", "a7b8c9d0-e1f2-0a1b-4c5d-6e7f8a9b0c1d"]
+  },
+  {
+    "title": "Guest Lecture - Dr. Jane Smith",
+    "start_time": "2026-03-04T14:00:00Z",
+    "end_time": "2026-03-04T16:00:00Z",
+    "impact_level": "low",
+    "affected_lots": ["d0e1f2a3-b4c5-3d4e-7f8a-9b0c1d2e3f4a", "b2c3d4e5-f6a7-5b6c-9d0e-1f2a3b4c5d6e"]
+  },
+  {
+    "title": "Soccer Match - GMU vs. Georgetown",
+    "start_time": "2026-03-06T17:00:00Z",
+    "end_time": "2026-03-06T19:30:00Z",
+    "impact_level": "medium",
+    "affected_lots": ["c3d4e5f6-a7b8-6c7d-0e1f-2a3b4c5d6e7f", "d4e5f6a7-b8c9-7d8e-1f2a-3b4c5d6e7f8a"]
+  },
+  {
+    "title": "Student Organization Fair",
+    "start_time": "2026-03-08T11:00:00Z",
+    "end_time": "2026-03-08T14:00:00Z",
+    "impact_level": "medium",
+    "affected_lots": ["a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d", "d0e1f2a3-b4c5-3d4e-7f8a-9b0c1d2e3f4a"]
+  },
+  {
+    "title": "Research Symposium",
+    "start_time": "2026-03-11T09:00:00Z",
+    "end_time": "2026-03-11T17:00:00Z",
+    "impact_level": "medium",
+    "affected_lots": ["f6a7b8c9-d0e1-9f0a-3b4c-5d6e7f8a9b0c", "d0e1f2a3-b4c5-3d4e-7f8a-9b0c1d2e3f4a"]
+  },
+  {
+    "title": "Concert - Spring Fest",
+    "start_time": "2026-03-12T18:00:00Z",
+    "end_time": "2026-03-12T23:00:00Z",
+    "impact_level": "high",
+    "affected_lots": ["a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d", "b2c3d4e5-f6a7-5b6c-9d0e-1f2a3b4c5d6e", "c3d4e5f6-a7b8-6c7d-0e1f-2a3b4c5d6e7f", "e5f6a7b8-c9d0-8e9f-2a3b-4c5d6e7f8a9b", "a7b8c9d0-e1f2-0a1b-4c5d-6e7f8a9b0c1d"]
+  },
+  {
+    "title": "Faculty Meeting",
+    "start_time": "2026-03-04T10:00:00Z",
+    "end_time": "2026-03-04T12:00:00Z",
+    "impact_level": "low",
+    "affected_lots": ["e5f6a7b8-c9d0-8e9f-2a3b-4c5d6e7f8a9b", "f6a7b8c9-d0e1-9f0a-3b4c-5d6e7f8a9b0c"]
+  },
+  {
+    "title": "Open House - Prospective Students",
+    "start_time": "2026-03-07T10:00:00Z",
+    "end_time": "2026-03-07T15:00:00Z",
+    "impact_level": "high",
+    "affected_lots": ["a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d", "b2c3d4e5-f6a7-5b6c-9d0e-1f2a3b4c5d6e", "c3d4e5f6-a7b8-6c7d-0e1f-2a3b4c5d6e7f", "d0e1f2a3-b4c5-3d4e-7f8a-9b0c1d2e3f4a"]
+  },
+  {
+    "title": "Lacrosse Tournament",
+    "start_time": "2026-03-08T08:00:00Z",
+    "end_time": "2026-03-08T18:00:00Z",
+    "impact_level": "medium",
+    "affected_lots": ["c3d4e5f6-a7b8-6c7d-0e1f-2a3b4c5d6e7f", "d4e5f6a7-b8c9-7d8e-1f2a-3b4c5d6e7f8a", "b8c9d0e1-f2a3-1b2c-5d6e-7f8a9b0c1d2e"]
+  },
+  {
+    "title": "Theater Performance - Hamlet",
+    "start_time": "2026-03-09T19:00:00Z",
+    "end_time": "2026-03-09T22:00:00Z",
+    "impact_level": "low",
+    "affected_lots": ["d0e1f2a3-b4c5-3d4e-7f8a-9b0c1d2e3f4a"]
+  },
+  {
+    "title": "STEM Day - High School Visit",
+    "start_time": "2026-03-10T09:00:00Z",
+    "end_time": "2026-03-10T14:00:00Z",
+    "impact_level": "medium",
+    "affected_lots": ["a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d", "f6a7b8c9-d0e1-9f0a-3b4c-5d6e7f8a9b0c"]
+  },
+  {
+    "title": "Blood Drive",
+    "start_time": "2026-03-05T10:00:00Z",
+    "end_time": "2026-03-05T16:00:00Z",
+    "impact_level": "low",
+    "affected_lots": ["d0e1f2a3-b4c5-3d4e-7f8a-9b0c1d2e3f4a"]
+  },
+  {
+    "title": "Volleyball Championship",
+    "start_time": "2026-03-11T18:00:00Z",
+    "end_time": "2026-03-11T21:00:00Z",
+    "impact_level": "medium",
+    "affected_lots": ["e5f6a7b8-c9d0-8e9f-2a3b-4c5d6e7f8a9b", "a7b8c9d0-e1f2-0a1b-4c5d-6e7f8a9b0c1d"]
+  },
+  {
+    "title": "Art Exhibition Opening",
+    "start_time": "2026-03-06T17:00:00Z",
+    "end_time": "2026-03-06T20:00:00Z",
+    "impact_level": "low",
+    "affected_lots": ["d0e1f2a3-b4c5-3d4e-7f8a-9b0c1d2e3f4a"]
+  },
+  {
+    "title": "International Food Festival",
+    "start_time": "2026-03-13T11:00:00Z",
+    "end_time": "2026-03-13T16:00:00Z",
+    "impact_level": "medium",
+    "affected_lots": ["a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d", "b2c3d4e5-f6a7-5b6c-9d0e-1f2a3b4c5d6e", "d0e1f2a3-b4c5-3d4e-7f8a-9b0c1d2e3f4a"]
+  },
+  {
+    "title": "Construction - Lot A Partial Closure",
+    "start_time": "2026-03-01T00:00:00Z",
+    "end_time": "2026-03-15T23:59:59Z",
+    "impact_level": "high",
+    "affected_lots": ["a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d"]
+  }
+]
