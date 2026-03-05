@@ -48,7 +48,7 @@ def pct_to_color(pct: float) -> str:
 
 async def get_recommendations(
     session: AsyncSession,
-    permit_type: str,
+    permit_type: str | None,
     dest_lat: float,
     dest_lon: float,
     arrival_time: datetime,
@@ -59,10 +59,13 @@ async def get_recommendations(
     apply +20% event bump for affected lots, compute walk distance, sort by pct ASC.
     Returns top 5 lots with predicted_pct, color, walk_minutes, confidence.
     """
-    # 1. Filter lots by permit type
-    lots_result = await session.execute(
-        select(Lot).where(Lot.permit_types.contains([permit_type]))
-    )
+    # 1. Filter lots by permit type (skip filter when permit_type is None)
+    if permit_type is not None:
+        lots_result = await session.execute(
+            select(Lot).where(Lot.permit_types.contains([permit_type]))
+        )
+    else:
+        lots_result = await session.execute(select(Lot))
     lots = lots_result.scalars().all()
 
     if not lots:

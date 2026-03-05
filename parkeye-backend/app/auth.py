@@ -48,10 +48,7 @@ async def get_current_user(
             )
         return User(id=user_id, role=role)
     except JWTError:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Invalid or expired token",
-        )
+        return None
 
 
 async def require_user(user: User | None = Depends(get_current_user)) -> User:

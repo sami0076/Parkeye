@@ -13,7 +13,7 @@ router = APIRouter(prefix="/recommendations", tags=["recommendations"])
 
 @router.get("", response_model=RecommendationResponse)
 async def get_recommendations_endpoint(
-    permit_type: str = Query(..., description="e.g. general, west_campus"),
+    permit_type: str | None = Query(None, description="e.g. general, west_campus. Omit or None for any permit type."),
     dest_lat: float = Query(..., description="Destination latitude"),
     dest_lon: float = Query(..., description="Destination longitude"),
     arrival_time: str = Query(..., description="ISO 8601 datetime"),

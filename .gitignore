@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Environment / secrets
+.env
+
+# Xcode
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# IDE
+.vscode/
+.idea/
+
+# Nested .git (frontend submodule artifact)
+parkeye_frontend/.git/
