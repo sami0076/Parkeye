@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25B8F3982F55392600A032EF /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 25B8F3972F55392600A032EF /* Auth */; };
+		25B8F39A2F55392600A032EF /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 25B8F3992F55392600A032EF /* Functions */; };
+		25B8F39C2F55392600A032EF /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 25B8F39B2F55392600A032EF /* PostgREST */; };
+		25B8F39E2F55392600A032EF /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 25B8F39D2F55392600A032EF /* Realtime */; };
+		25B8F3A02F55392600A032EF /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 25B8F39F2F55392600A032EF /* Storage */; };
+		25B8F3A12F55392600A032EF /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 25B8F3A22F55392600A032EF /* Supabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EEB8D792F50ACED00C05224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EEB8D5E2F50ACEB00C05224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EEB8D652F50ACEB00C05224;
+			remoteInfo = parkeye;
+		};
+		2EEB8D832F50ACED00C05224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EEB8D5E2F50ACEB00C05224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EEB8D652F50ACEB00C05224;
+			remoteInfo = parkeye;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EEB8D662F50ACEB00C05224 /* parkeye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parkeye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEB8D782F50ACED00C05224 /* parkeyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parkeyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EEB8D822F50ACED00C05224 /* parkeyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parkeyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2EEB8D682F50ACEB00C05224 /* parkeye */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = parkeye;
+			sourceTree = "<group>";
+		};
+		2EEB8D7B2F50ACED00C05224 /* parkeyeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = parkeyeTests;
+			sourceTree = "<group>";
+		};
+		2EEB8D852F50ACED00C05224 /* parkeyeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = parkeyeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EEB8D632F50ACEB00C05224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B8F39C2F55392600A032EF /* PostgREST in Frameworks */,
+				25B8F39A2F55392600A032EF /* Functions in Frameworks */,
+				25B8F3982F55392600A032EF /* Auth in Frameworks */,
+				25B8F3A02F55392600A032EF /* Storage in Frameworks */,
+				25B8F39E2F55392600A032EF /* Realtime in Frameworks */,
+				25B8F3A12F55392600A032EF /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEB8D752F50ACED00C05224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEB8D7F2F50ACED00C05224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EEB8D5D2F50ACEB00C05224 = {
+			isa = PBXGroup;
+			children = (
+				2EEB8D682F50ACEB00C05224 /* parkeye */,
+				2EEB8D7B2F50ACED00C05224 /* parkeyeTests */,
+				2EEB8D852F50ACED00C05224 /* parkeyeUITests */,
+				2EEB8D672F50ACEB00C05224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EEB8D672F50ACEB00C05224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EEB8D662F50ACEB00C05224 /* parkeye.app */,
+				2EEB8D782F50ACED00C05224 /* parkeyeTests.xctest */,
+				2EEB8D822F50ACED00C05224 /* parkeyeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EEB8D652F50ACEB00C05224 /* parkeye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EEB8D8C2F50ACED00C05224 /* Build configuration list for PBXNativeTarget "parkeye" */;
+			buildPhases = (
+				2EEB8D622F50ACEB00C05224 /* Sources */,
+				2EEB8D632F50ACEB00C05224 /* Frameworks */,
+				2EEB8D642F50ACEB00C05224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2EEB8D682F50ACEB00C05224 /* parkeye */,
+			);
+			name = parkeye;
+			packageProductDependencies = (
+				25B8F3972F55392600A032EF /* Auth */,
+				25B8F3992F55392600A032EF /* Functions */,
+				25B8F39B2F55392600A032EF /* PostgREST */,
+				25B8F39D2F55392600A032EF /* Realtime */,
+				25B8F39F2F55392600A032EF /* Storage */,
+				25B8F3A22F55392600A032EF /* Supabase */,
+			);
+			productName = parkeye;
+			productReference = 2EEB8D662F50ACEB00C05224 /* parkeye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EEB8D772F50ACED00C05224 /* parkeyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EEB8D8F2F50ACED00C05224 /* Build configuration list for PBXNativeTarget "parkeyeTests" */;
+			buildPhases = (
+				2EEB8D742F50ACED00C05224 /* Sources */,
+				2EEB8D752F50ACED00C05224 /* Frameworks */,
+				2EEB8D762F50ACED00C05224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EEB8D7A2F50ACED00C05224 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2EEB8D7B2F50ACED00C05224 /* parkeyeTests */,
+			);
+			name = parkeyeTests;
+			packageProductDependencies = (
+			);
+			productName = parkeyeTests;
+			productReference = 2EEB8D782F50ACED00C05224 /* parkeyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EEB8D812F50ACED00C05224 /* parkeyeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EEB8D922F50ACED00C05224 /* Build configuration list for PBXNativeTarget "parkeyeUITests" */;
+			buildPhases = (
+				2EEB8D7E2F50ACED00C05224 /* Sources */,
+				2EEB8D7F2F50ACED00C05224 /* Frameworks */,
+				2EEB8D802F50ACED00C05224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EEB8D842F50ACED00C05224 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2EEB8D852F50ACED00C05224 /* parkeyeUITests */,
+			);
+			name = parkeyeUITests;
+			packageProductDependencies = (
+			);
+			productName = parkeyeUITests;
+			productReference = 2EEB8D822F50ACED00C05224 /* parkeyeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EEB8D5E2F50ACEB00C05224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					2EEB8D652F50ACEB00C05224 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					2EEB8D772F50ACED00C05224 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 2EEB8D652F50ACEB00C05224;
+					};
+					2EEB8D812F50ACED00C05224 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 2EEB8D652F50ACEB00C05224;
+					};
+				};
+			};
+			buildConfigurationList = 2EEB8D612F50ACEB00C05224 /* Build configuration list for PBXProject "parkeye" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EEB8D5D2F50ACEB00C05224;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				25B8F3962F55392600A032EF /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2EEB8D672F50ACEB00C05224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EEB8D652F50ACEB00C05224 /* parkeye */,
+				2EEB8D772F50ACED00C05224 /* parkeyeTests */,
+				2EEB8D812F50ACED00C05224 /* parkeyeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EEB8D642F50ACEB00C05224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEB8D762F50ACED00C05224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEB8D802F50ACED00C05224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EEB8D622F50ACEB00C05224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEB8D742F50ACED00C05224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EEB8D7E2F50ACED00C05224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EEB8D7A2F50ACED00C05224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EEB8D652F50ACEB00C05224 /* parkeye */;
+			targetProxy = 2EEB8D792F50ACED00C05224 /* PBXContainerItemProxy */;
+		};
+		2EEB8D842F50ACED00C05224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EEB8D652F50ACEB00C05224 /* parkeye */;
+			targetProxy = 2EEB8D832F50ACED00C05224 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EEB8D8A2F50ACED00C05224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MF6C4WS732;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EEB8D8B2F50ACED00C05224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MF6C4WS732;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EEB8D8D2F50ACED00C05224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF6C4WS732;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trngtnm.parkeye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EEB8D8E2F50ACED00C05224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF6C4WS732;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trngtnm.parkeye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EEB8D902F50ACED00C05224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF6C4WS732;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trngtnm.parkeyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parkeye.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/parkeye";
+			};
+			name = Debug;
+		};
+		2EEB8D912F50ACED00C05224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF6C4WS732;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trngtnm.parkeyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parkeye.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/parkeye";
+			};
+			name = Release;
+		};
+		2EEB8D932F50ACED00C05224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF6C4WS732;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trngtnm.parkeyeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = parkeye;
+			};
+			name = Debug;
+		};
+		2EEB8D942F50ACED00C05224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MF6C4WS732;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = trngtnm.parkeyeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = parkeye;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EEB8D612F50ACEB00C05224 /* Build configuration list for PBXProject "parkeye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEB8D8A2F50ACED00C05224 /* Debug */,
+				2EEB8D8B2F50ACED00C05224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EEB8D8C2F50ACED00C05224 /* Build configuration list for PBXNativeTarget "parkeye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEB8D8D2F50ACED00C05224 /* Debug */,
+				2EEB8D8E2F50ACED00C05224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EEB8D8F2F50ACED00C05224 /* Build configuration list for PBXNativeTarget "parkeyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEB8D902F50ACED00C05224 /* Debug */,
+				2EEB8D912F50ACED00C05224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EEB8D922F50ACED00C05224 /* Build configuration list for PBXNativeTarget "parkeyeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEB8D932F50ACED00C05224 /* Debug */,
+				2EEB8D942F50ACED00C05224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		25B8F3962F55392600A032EF /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		25B8F3972F55392600A032EF /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25B8F3962F55392600A032EF /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		25B8F3992F55392600A032EF /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25B8F3962F55392600A032EF /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		25B8F39B2F55392600A032EF /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25B8F3962F55392600A032EF /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		25B8F39D2F55392600A032EF /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25B8F3962F55392600A032EF /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		25B8F39F2F55392600A032EF /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25B8F3962F55392600A032EF /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		25B8F3A22F55392600A032EF /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25B8F3962F55392600A032EF /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2EEB8D5E2F50ACEB00C05224 /* Project object */;
+}

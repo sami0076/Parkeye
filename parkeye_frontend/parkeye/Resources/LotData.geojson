@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d",
+      "properties": { "name": "Lot A" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.3140, 38.8318],
+          [-77.3120, 38.8318],
+          [-77.3120, 38.8302],
+          [-77.3140, 38.8302],
+          [-77.3140, 38.8318]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b2c3d4e5-f6a7-5b6c-9d0e-1f2a3b4c5d6e",
+      "properties": { "name": "Lot C" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.3100, 38.8318],
+          [-77.3080, 38.8318],
+          [-77.3080, 38.8302],
+          [-77.3100, 38.8302],
+          [-77.3100, 38.8318]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c3d4e5f6-a7b8-6c7d-0e1f-2a3b4c5d6e7f",
+      "properties": { "name": "Lot K" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.3130, 38.8322],
+          [-77.3110, 38.8322],
+          [-77.3110, 38.8306],
+          [-77.3130, 38.8306],
+          [-77.3130, 38.8322]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d4e5f6a7-b8c9-7d8e-1f2a-3b4c5d6e7f8a",
+      "properties": { "name": "Lot L" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.3060, 38.8318],
+          [-77.3040, 38.8318],
+          [-77.3040, 38.8302],
+          [-77.3060, 38.8302],
+          [-77.3060, 38.8318]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "e5f6a7b8-c9d0-8e9f-2a3b-4c5d6e7f8a9b",
+      "properties": { "name": "Parking Deck 1" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.3086, 38.8288],
+          [-77.3066, 38.8288],
+          [-77.3066, 38.8272],
+          [-77.3086, 38.8272],
+          [-77.3086, 38.8288]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "f6a7b8c9-d0e1-9f0a-3b4c-5d6e7f8a9b0c",
+      "properties": { "name": "Parking Deck 2" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.3110, 38.8288],
+          [-77.3090, 38.8288],
+          [-77.3090, 38.8272],
+          [-77.3110, 38.8272],
+          [-77.3110, 38.8288]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "a7b8c9d0-e1f2-0a1b-4c5d-6e7f8a9b0c1d",
+      "properties": { "name": "Rappahannock Deck" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.3090, 38.8358],
+          [-77.3070, 38.8358],
+          [-77.3070, 38.8342],
+          [-77.3090, 38.8342],
+          [-77.3090, 38.8358]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "b8c9d0e1-f2a3-1b2c-5d6e-7f8a9b0c1d2e",
+      "properties": { "name": "Shenandoah Lot" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.3086, 38.8324],
+          [-77.3066, 38.8324],
+          [-77.3066, 38.8308],
+          [-77.3086, 38.8308],
+          [-77.3086, 38.8324]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "c9d0e1f2-a3b4-2c3d-6e7f-8a9b0c1d2e3f",
+      "properties": { "name": "West Campus Lot" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.3170, 38.8310],
+          [-77.3150, 38.8310],
+          [-77.3150, 38.8294],
+          [-77.3170, 38.8294],
+          [-77.3170, 38.8310]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "d0e1f2a3-b4c5-3d4e-7f8a-9b0c1d2e3f4a",
+      "properties": { "name": "Johnson Center Lot" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.3070, 38.8340],
+          [-77.3050, 38.8340],
+          [-77.3050, 38.8324],
+          [-77.3070, 38.8324],
+          [-77.3070, 38.8340]
+        ]]
+      }
+    }
+  ]
+}

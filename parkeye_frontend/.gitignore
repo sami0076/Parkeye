@@ -1,0 +1,17 @@
+# Secrets — copy Info.plist.example → Info.plist and fill in values
+Info.plist
+
+# Xcode user data
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+
+# Build artifacts
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
